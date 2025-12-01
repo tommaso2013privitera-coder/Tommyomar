@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmTo - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>OmTo Chatroom</h1>
+        <p>Inserisci il tuo nome, la password e completa il CAPTCHA.</p>
+
+        <form action="chat.html" method="GET">
+            <label for="username">Nome:</label>
+            <input type="text" id="username" name="username" maxlength="20" required>
+
+            <label for="password">Password (max 4 caratteri):</label>
+            <input type="password" id="password" name="password" maxlength="4" required>
+
+            <label for="captcha">CAPTCHA: Quanto fa <strong>3 + 4?</strong></label>
+            <input type="text" id="captcha" name="captcha" required>
+
+            <button type="submit">Entra</button>
+        </form>
+    </div>
+
+</body>
+</html>
